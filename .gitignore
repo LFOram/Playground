@@ -10,3 +10,5 @@ Euler/\.idea/modules\.xml
 Euler/\.idea/workspace\.xml
 
 Cards/\.idea/
+
+*.pyc
