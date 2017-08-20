@@ -23,10 +23,10 @@ def shuffle(deck):
         deck.pop(rand)
     return shuffled
 
-if __name__ == '__main__':
+def deck():
     deck = create_deck()
     for i in range(7):
         deck = shuffle(deck)
-
-    for card in deck:
-        print(card.get_card())
+    #for card in deck:
+        #print(card.get_card())
+    return deck
